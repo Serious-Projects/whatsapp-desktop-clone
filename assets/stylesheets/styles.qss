@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+}
+
+QLineEdit {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+QListWidget::item:selected {
+    background-color: #eee;
+}
+
+#ChatView_MainFrame {
+    background-color: #3F3F46;
+}
+
+/* #ChatViewHeader {
+    padding: 10px;
+    background-color: #cdc2f5;
+}
+
+#ChatViewHeader #profile_image {
+    padding: 0;
+    background-color: transparent;
+}
+
+#ChatViewHeader #username {
+    color: #4C1D95;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#ChatViewHeader #last_seen {
+    color: #6D28D9;
+    font-size: 14px;
+}
+
+#ChatViewHeader #icon_frame {
+    padding: 0;
+    background-color: #e6e1f9;
+    border-radius: 6px;
+} */
+
+/* #ChatArea {
+    background-color: #e6e1f9;
+} */
+
+#ChatMessage {
+    /* padding: 5px 0; */
+}
+
+#ChatMessage #chat_message {
+    margin-right: 10px;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background: #333;
+    width: 12px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 6px;
+}
+QScrollBar::handle:vertical {
+    background: #888;
+    min-height: 20px;
+    border-radius: 6px;
+}
+QScrollBar::handle:vertical:hover {
+    background: #555;
+}
+QScrollBar::sub-line:vertical, QScrollBar::add-line:vertical {
+    height: 0px;
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+QScrollBar:horizontal {
+    border: none;
+    background: #333;
+    height: 12px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 6px;
+}
+QScrollBar::handle:horizontal {
+    background: #888;
+    min-width: 20px;
+    border-radius: 6px;
+}
+QScrollBar::handle:horizontal:hover {
+    background: #555;
+}
+QScrollBar::sub-line:horizontal, QScrollBar::add-line:horizontal {
+    width: 0px;
+}
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
