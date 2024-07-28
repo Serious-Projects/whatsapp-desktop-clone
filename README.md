@@ -1,67 +1,58 @@
-```
-whatsapp-clone
-├─ .gitignore
-├─ assets
-│  ├─ fonts
-│  │  └─ Inter.ttf
-│  ├─ icons
-│  │  ├─ archive.svg
-│  │  ├─ bot-message-square.svg
-│  │  ├─ check-check.svg
-│  │  ├─ circle-equal.svg
-│  │  ├─ circle-fading-plus.svg
-│  │  ├─ close.svg
-│  │  ├─ list-filter.svg
-│  │  ├─ maximize.svg
-│  │  ├─ menu.svg
-│  │  ├─ message-square-text.svg
-│  │  ├─ minimize-2.svg
-│  │  ├─ phone.svg
-│  │  ├─ search.svg
-│  │  ├─ send-horizontal.svg
-│  │  ├─ settings.svg
-│  │  ├─ smile-plus.svg
-│  │  ├─ square-pen.svg
-│  │  ├─ star.svg
-│  │  ├─ user-pen.svg
-│  │  └─ video.svg
-│  ├─ images
-│  │  ├─ png-chat-background.png
-│  │  ├─ profile.png
-│  │  └─ svg-chat-background.svg
-│  └─ stylesheets
-│     └─ styles.qss
-├─ README.md
-├─ requirements.txt
-├─ setup.py
-└─ src
-   ├─ components
-   │  ├─ content_area.py
-   │  ├─ sidebar.py
-   │  └─ __init__.py
-   ├─ controllers
-   │  └─ __init__.py
-   ├─ main.py
-   ├─ models
-   │  └─ __init__.py
-   ├─ utils
-   │  ├─ image.py
-   │  ├─ view_type.py
-   │  └─ __init__.py
-   ├─ views
-   │  ├─ ai_view.py
-   │  ├─ archive_view.py
-   │  ├─ calls_view.py
-   │  ├─ chats_view.py
-   │  ├─ main_view.py
-   │  ├─ profile.py
-   │  ├─ settings.py
-   │  ├─ starred_messages_view.py
-   │  ├─ status_view.py
-   │  └─ __init__.py
-   ├─ widgets
-   │  ├─ icon_button.py
-   │  ├─ image_widget.py
-   │  └─ __init__.py
-   └─ __init__.py
-```
+# WhatsApp Desktop Clone
+
+This project is a clone of the WhatsApp Desktop application, developed using Python and the PyQt5 library to create an aesthetically pleasing and functional user interface.
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+## Features
+
+- Modern UI with a sleek design.
+- Functional sidebar with navigation.
+- Chat list displaying messages with profile images and timestamps.
+- Responsive layout similar to the original WhatsApp Desktop application.
+- Modular code structure for easy maintenance and scalability.
+
+## Installation
+
+To get started with this project, follow the instructions below:
+
+1. **Clone the Repository:**
+    ```sh
+    git clone https://github.com/yourusername/whatsapp-clone.git
+    cd whatsapp-clone
+    ```
+
+2. **Create a Virtual Environment:**
+    ```sh
+    python -m venv env
+    source env/bin/activate  # On Windows use `env\Scripts\activate`
+    ```
+
+3. **Install Dependencies:**
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+4. **Run the Application:**
+    ```sh
+    python -m src.main
+    ```
+
+## Usage
+
+Once you have the application running, you can use the sidebar to navigate through different sections such as Chats, Calls, and Settings. The chat list will display messages with corresponding profile images and timestamps, emulating the WhatsApp Desktop experience.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- Inspired by the official WhatsApp Desktop application.
+- Built with [Python](https://www.python.org/) and [PyQt5](https://riverbankcomputing.com/software/pyqt/intro).
